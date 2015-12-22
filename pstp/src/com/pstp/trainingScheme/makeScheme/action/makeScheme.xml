@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="makeScheme" namespace="/trainingScheme/makeScheme" extends="json-default">
+		<action name="makeSchemeAction_*" class="makeSchemeAction" method="{1}">
+			<result name="displayMakeScheme">/WEB-INF/jsp/trainingScheme/makeSchemeAction/displayMakeScheme.jsp
+			</result>
+		</action>
+	</package>
+</struts>

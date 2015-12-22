@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="knowledge" location="51,50" size="171,71">
+    <action name="knowledgeManagementAction_*" location="11,20" size="150,41">
+      <result name="knowledgeManagement">
+        <resourceEdge source="knowledgeManagement" routing="0" target="knowledgeManagement.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="knowledgeManagement.jsp" path="/WEB-INF/jsp/knowledgeRepository/knowledgeManagement/knowledgeManagement.jsp" location="501,50" size="150,55" />
+</Struts2Diagram>
+

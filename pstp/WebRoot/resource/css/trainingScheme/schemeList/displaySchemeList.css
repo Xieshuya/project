@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* CSS Document */
+div {
+	height: auto;
+}
+body{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #00746f;
+}
+a {
+	text-decoration: none;
+	color: #00746f;
+}
+.makeScheme_content_mainDiv {
+	position: absolute;
+	width: 1010px;
+	height: 790px;
+	top: 40px;
+	left: 25px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #c9c9c9;
+	border-bottom-color: #c9c9c9;
+	border-left-color: #c9c9c9;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #646464;
+}
+.list_new_employee {
+	background-image: url(../../../image/trainingScheme/schemeList/list_new_employee.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	-ms-background-size: contain;
+	height: 200px;
+	border: none;
+	cursor: pointer;
+}
+.list_senior_employee {
+	background-image: url(../../../image/trainingScheme/schemeList/list_senior_employee.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 200px;
+	border: none;
+	cursor: pointer;
+}
+.list_factory_employee {
+	background-image: url(../../../image/trainingScheme/schemeList/list_factory_employee.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 200px;
+	border: none;
+	cursor: pointer;
+}
+.list_word_icon {
+	background-image: url(../../../image/trainingScheme/schemeList/list_word_icon.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	border: none;
+	cursor: pointer;
+}
+.list_check_button1 {
+	background-image: url(../../../image/trainingScheme/schemeList/list_check_button1.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 30px;
+	border: solid 0px #00746f;
+	cursor: pointer;
+}
+
+

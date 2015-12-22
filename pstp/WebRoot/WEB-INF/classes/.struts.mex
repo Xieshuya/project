@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <include file="system.xml" location="10,10" size="150,30" />
+  <include file="schemeList.xml" location="10,115" size="150,30" />
+  <include file="makeScheme.xml" location="10,220" size="150,30" />
+  <include file="knowledgeManagement.xml" location="33,325" size="150,30" />
+  <include file="knowledgeBase.xml" location="14,276" size="150,30" />
+</Struts2Diagram>
+

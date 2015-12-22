@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="makeScheme" location="100,10" size="226,108">
+    <action name="makeSchemeAction_*" location="66,57" size="150,41">
+      <result name="displayMakeScheme">
+        <resourceEdge source="displayMakeScheme" routing="0" target="displayMakeScheme.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="displayMakeScheme.jsp" path="/WEB-INF/jsp/trainingScheme/makeSchemeAction/displayMakeScheme.jsp" location="10,205" size="150,55" />
+</Struts2Diagram>
+

@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+/* CSS Document */
+#mainDiv {
+	position: absolute;
+	width: 100%;
+	height: 697px;
+	top: 0px;
+	left: 0px;
+}
+
+.makeScheme_content_mainDiv {
+	position: absolute;
+	width: 1010px;
+	height: 643px;
+	top: 40px;
+	left: 25px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #c9c9c9;
+	border-bottom-color: #c9c9c9;
+	border-left-color: #c9c9c9;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #646464;
+}
+
+.makeScheme_content_navigation_Bar {
+	position: absolute;
+	width: 1010px;
+	height: 40px;
+	top: 0px;
+	left: 0px;
+	border: solid 0px #000000;
+	border-bottom: solid 1px #c9c9c9;
+}
+
+.new_navigation_Bar {
+	position: absolute;
+	width: 74px;
+	height: 40px;
+	top: 0px;
+	left: 5px;
+	border: solid 0px #000000;
+	text-align: center;
+	line-height: 40px;
+	background-image: url(../../../image/system/index_title_bg2.gif);
+	background-repeat: no-repeat;
+	background-position: 1px bottom;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #00746f;
+}
+
+.old_navigation_Bar {
+	position: absolute;
+	width: 74px;
+	height: 40px;
+	top: 0px;
+	left: 85px;
+	border: solid 0px #000000;
+	text-align: center;
+	line-height: 40px;
+	background-image: url(../../../image/system/index_title_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 1px bottom;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #c5002e;
+}
+
+.vendor_navigation_Bar {
+	position: absolute;
+	width: 74px;
+	height: 40px;
+	top: 0px;
+	left: 165px;
+	border: solid 0px #000000;
+	text-align: center;
+	line-height: 40px;
+	background-image: url(../../../image/system/index_title_bg.gif);
+	background-repeat: no-repeat;
+	background-position: 1px bottom;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #c5002e;
+}
+
+.makeScheme_content_newFormDiv {
+	position: absolute;
+	width: 1010px;
+	height: 340px;
+	top: 45px;
+	left: 0px;
+	border: solid 0px #000000;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #00746f;
+}
+
+.makeScheme_content_oldFormDiv {
+	position: absolute;
+	width: 1010px;
+	height: 340px;
+	top: 45px;
+	left: 0px;
+	border: solid 0px #000000;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #00746f;
+	display: none;
+}
+
+.makeScheme_content_vendorFormDiv {
+	position: absolute;
+	width: 1010px;
+	height: 340px;
+	top: 45px;
+	left: 0px;
+	border: solid 0px #000000;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #00746f;
+	display: none;
+}
+
+.schemeNameDiv {
+	position: absolute;
+	width: 800px;
+	height: 25px;
+	top: 10px;
+	left: 20px;
+	line-height: 25px;
+	border: solid 0px #000000;
+}
+
+.schemeNameTextField {
+	width: 400px;
+	height: 25px;
+	border: solid 1px #00746f;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.trainingGoalDiv {
+	position: absolute;
+	width: 800px;
+	height: 25px;
+	top: 60px;
+	left: 20px;
+	line-height: 25px;
+	border: solid 0px #000000;
+}
+
+.trainingGoalTextArea {
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	top: 0px;
+	left: 80px;
+	border: solid 1px #00746f;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.trainingContentDiv {
+	position: absolute;
+	width: 800px;
+	height: 25px;
+	top: 185px;
+	left: 20px;
+	border: solid 0px #00746f;
+}
+
+.trainingContentTreeDiv {
+	position: absolute;
+	width: 602px;
+	height: 400px;
+	top: 0px;
+	left: 80px;
+	border: solid 1px #00746f;
+}
+
+.schemeYesButtonDiv {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	top: 20px;
+	left: 880px;
+	border: solid 0px #00746f;
+}
+
+.schemeYesButton {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	top: 0px;
+	left: 0px;
+	border: solid 0px #00746f;
+	background-image: url(../../../image/trainingScheme/makeScheme/schemeYesButton.png);
+	cursor: pointer;
+}
+
+.schemeClearButtonDiv {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	top: 70px;
+	left: 880px;
+	border: solid 0px #00746f;
+}
+
+.schemeClearButton {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	top: 0px;
+	left: 0px;
+	border: solid 0px #00746f;
+	background-image: url(../../../image/trainingScheme/makeScheme/schemeClearButton.png);
+	cursor: pointer;
+}

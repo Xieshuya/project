@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="pstp"
+  id="myeclipse.1448888051164"
+  context-root="/pstp"
+  j2ee-spec="5.0"
+  archive="pstp.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

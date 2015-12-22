@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="system" namespace="/system" extends="json-default">
+		<action name="systemIndexAction_*" class="systemIndexAction" method="{1}">
+			<result name="topMenu">/WEB-INF/jsp/system/systemIndexAction/topMenu.jsp
+			</result>
+			<result name="leftMenu">/WEB-INF/jsp/system/systemIndexAction/leftMenu.jsp
+			</result>
+			<result name="homePage">/WEB-INF/jsp/system/systemIndexAction/homePage.jsp
+			</result>
+			<result name="statusBar">/WEB-INF/jsp/system/systemIndexAction/statusBar.jsp
+			</result>
+		</action>
+	</package>
+</struts>

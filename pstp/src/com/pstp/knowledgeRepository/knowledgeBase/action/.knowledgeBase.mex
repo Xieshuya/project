@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="knowledge" location="144,10" size="171,71">
+    <action name="knowledgeBaseAction_*" location="11,20" size="150,41">
+      <result name="knowledgeBase">
+        <resourceEdge source="knowledgeBase" routing="0" target="knowledgeAction.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="knowledgeAction.jsp" path="/WEB-INF/jsp/knowledgeRepository/knowledgeBase/knowledgeAction.jsp" location="171,205" size="150,55" />
+</Struts2Diagram>
+
